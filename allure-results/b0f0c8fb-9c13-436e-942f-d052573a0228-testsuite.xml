@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623583624530' stop='1623583640636'>
+    <name>Account Function for undefined</name>
+    <title>Account Function for undefined</title>
+    <test-cases>
+        <test-case start='1623583624531' status='passed' stop='1623583634411'>
+            <name>Login successfully</name>
+            <title>Login successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='TC_001'/>
+                <label name='severity' value='critical'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps>
+                <step start='1623583626771' status='passed' stop='1623583626771'>
+                    <name>Input email as teo@gmail.com</name>
+                    <title>Input email as teo@gmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623583628635' status='passed' stop='1623583628635'>
+                    <name>Input password as 12345678</name>
+                    <title>Input password as 12345678</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623583630740' status='passed' stop='1623583630740'>
+                    <name>Click on Login button</name>
+                    <title>Click on Login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1623583634413' status='passed' stop='1623583640635'>
+            <name>Login unsuccessfully</name>
+            <title>Login unsuccessfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='TC_002'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps>
+                <step start='1623583635026' status='passed' stop='1623583635026'>
+                    <name>Input email as </name>
+                    <title>Input email as </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623583636337' status='passed' stop='1623583636337'>
+                    <name>Input password as 1234567</name>
+                    <title>Input password as 1234567</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623583638034' status='passed' stop='1623583638034'>
+                    <name>Click on Login button</name>
+                    <title>Click on Login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

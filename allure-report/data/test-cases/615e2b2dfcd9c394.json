@@ -1,0 +1,155 @@
+{
+  "uid" : "615e2b2dfcd9c394",
+  "name" : "Login unsuccessfully",
+  "fullName" : "Account Function for undefined.Login unsuccessfully",
+  "historyId" : "f5dda17294cf432ba8fc9c16deae7cc",
+  "time" : {
+    "start" : 1623584674489,
+    "stop" : 1623584681594,
+    "duration" : 7105
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Input email as ",
+      "time" : {
+        "start" : 1623584675228,
+        "stop" : 1623584675228,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Input password as 1234567",
+      "time" : {
+        "start" : 1623584676645,
+        "stop" : 1623584676645,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on Login button",
+      "time" : {
+        "start" : 1623584678503,
+        "stop" : 1623584678503,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "testId",
+    "value" : "https://my-tms/TC_002"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Account Function for undefined"
+  }, {
+    "name" : "testClass",
+    "value" : "Account Function for undefined"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login unsuccessfully"
+  }, {
+    "name" : "package",
+    "value" : "Account Function for undefined"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "emulator-5554-9"
+  } ],
+  "links" : [ {
+    "name" : "https://my-tms/TC_002",
+    "url" : "https://my-tms/TC_002",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5ab29ff4fac83826",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623584340211,
+        "stop" : 1623584347469,
+        "duration" : 7258
+      }
+    }, {
+      "uid" : "4c7d28869f8736de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623583754502,
+        "stop" : 1623583762871,
+        "duration" : 8369
+      }
+    }, {
+      "uid" : "42f3e5ac86b3128",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623583634413,
+        "stop" : 1623583640635,
+        "duration" : 6222
+      }
+    }, {
+      "uid" : "fa6fdcf7b0a70a78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623583324522,
+        "stop" : 1623583331021,
+        "duration" : 6499
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "615e2b2dfcd9c394.json",
+  "parameterValues" : [ "emulator-5554-9" ]
+}

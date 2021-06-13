@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Account Function for undefined",
+    "children" : [ {
+      "name" : "Login successfully",
+      "uid" : "5ba494ed177aff70",
+      "parentUid" : "94176fc17e8337f5f7a038fa7ad5e927",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623584659702,
+        "stop" : 1623584674488,
+        "duration" : 14786
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "emulator-5554-9" ]
+    }, {
+      "name" : "Login unsuccessfully",
+      "uid" : "615e2b2dfcd9c394",
+      "parentUid" : "94176fc17e8337f5f7a038fa7ad5e927",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623584674489,
+        "stop" : 1623584681594,
+        "duration" : 7105
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "emulator-5554-9" ]
+    } ],
+    "uid" : "94176fc17e8337f5f7a038fa7ad5e927"
+  } ]
+}

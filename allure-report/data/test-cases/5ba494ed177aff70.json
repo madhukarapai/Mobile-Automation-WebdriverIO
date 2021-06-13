@@ -1,0 +1,155 @@
+{
+  "uid" : "5ba494ed177aff70",
+  "name" : "Login successfully",
+  "fullName" : "Account Function for undefined.Login successfully",
+  "historyId" : "5056f51c1bf04783e9daf56c224c139f",
+  "time" : {
+    "start" : 1623584659702,
+    "stop" : 1623584674488,
+    "duration" : 14786
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Input email as teo@gmail.com",
+      "time" : {
+        "start" : 1623584663501,
+        "stop" : 1623584663501,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Input password as 12345678",
+      "time" : {
+        "start" : 1623584666862,
+        "stop" : 1623584666862,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on Login button",
+      "time" : {
+        "start" : 1623584668779,
+        "stop" : 1623584668779,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "testId",
+    "value" : "https://my-tms/TC_001"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Account Function for undefined"
+  }, {
+    "name" : "testClass",
+    "value" : "Account Function for undefined"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login successfully"
+  }, {
+    "name" : "package",
+    "value" : "Account Function for undefined"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "emulator-5554-9"
+  } ],
+  "links" : [ {
+    "name" : "https://my-tms/TC_001",
+    "url" : "https://my-tms/TC_001",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "de3374064729a927",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623584320720,
+        "stop" : 1623584340210,
+        "duration" : 19490
+      }
+    }, {
+      "uid" : "78954cee08549d7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623583738185,
+        "stop" : 1623583754500,
+        "duration" : 16315
+      }
+    }, {
+      "uid" : "21c982605af04360",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623583624531,
+        "stop" : 1623583634411,
+        "duration" : 9880
+      }
+    }, {
+      "uid" : "9752da5b613ae4ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623583315203,
+        "stop" : 1623583324521,
+        "duration" : 9318
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5ba494ed177aff70.json",
+  "parameterValues" : [ "emulator-5554-9" ]
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "5ba494ed177aff70",
+  "name" : "Login successfully",
+  "time" : {
+    "start" : 1623584659702,
+    "stop" : 1623584674488,
+    "duration" : 14786
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "615e2b2dfcd9c394",
+  "name" : "Login unsuccessfully",
+  "time" : {
+    "start" : 1623584674489,
+    "stop" : 1623584681594,
+    "duration" : 7105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
